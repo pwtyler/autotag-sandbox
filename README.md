@@ -1,4 +1,4 @@
 # autotag-sandbox
 Sandbox to test autotag action
 
-Counter: `0`
+Counter: `1`
