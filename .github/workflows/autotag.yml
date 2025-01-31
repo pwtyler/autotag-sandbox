@@ -12,4 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pantheon-systems/action-autotag@i-o
+        with:
+          fetch-tags: true
+      - uses: pantheon-systems/action-autotag@i-o-drop-checkout
