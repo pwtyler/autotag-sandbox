@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-tags: "true"
+          fetch-depth: 0
       - uses: pantheon-systems/action-autotag@i-o-drop-checkout
