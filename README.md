@@ -1,4 +1,4 @@
 # autotag-sandbox
 Sandbox to test autotag action
 
-Counter: `1.4.0`
+Counter: `2.0.0`
