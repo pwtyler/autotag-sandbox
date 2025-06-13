@@ -1,6 +1,7 @@
 name: Validate Plugin Version
+
 on:
-  push
+  workflow_dispatch:
 
 permissions:
   contents: write
