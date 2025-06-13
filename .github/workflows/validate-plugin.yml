@@ -16,3 +16,5 @@ jobs:
           fetch-depth: 0
       - name: Validate Plugin Version
         uses: pwtyler/action-validate-plugin-version@handle-past-branches-ii
+        with:
+          branch: ${{ github.ref_name }}
